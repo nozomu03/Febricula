@@ -1,0 +1,46 @@
+Audio
+broadcast https://freesound.org/people/MatthewWong/sounds/361564/
+
+wind https://freesound.org/people/egomassive/sounds/536776/
+
+kick https://freesound.org/people/qubodup/sounds/160213/
+
+paper https://freesound.org/people/drooler/sounds/508595/
+
+wrinkle https://freesound.org/people/guilleADRV/sounds/251001/
+
+walk_slow https://freesound.org/people/egomassive/sounds/536800/
+
+growl https://freesound.org/people/Breviceps/sounds/447911/
+
+bursh https://freesound.org/people/Caitlin_100/sounds/366969/
+
+gargl https://freesound.org/people/brlproductions/sounds/171336/
+
+lighter https://freesound.org/people/MikeNavajas/sounds/521483/
+
+smoke https://freesound.org/people/inmelo/sounds/424744/
+
+putoff https://freesound.org/people/LJ.The.Unicorn/sounds/595502/
+
+cough https://freesound.org/people/MilliiStewart15/sounds/566006/
+
+3d Model
+"Old Tree" (https://skfb.ly/6TvHn) by gelmi.com.br is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+"chrysanthemum flower 3d model" (https://skfb.ly/osHqp) by Mirriliem is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+image 
+https://thispersondoesnotexist.com/
+
+https://pixabay.com/ko/photos/1655503/
+
+https://pixabay.com/ko/illustrations/%ec%8a%a4%ed%81%ac%eb%a1%a4-%ec%a2%85%ec%9d%b4-%eb%8a%99%ec%9d%80-%ea%b3%b5%eb%b0%b1-1033117/
+
+https://pixabay.com/ko/illustrations/%ec%a2%85%ec%9d%b4-%ed%8e%b8%ec%a7%80%ec%a7%80-%ed%81%ac%eb%a6%ac%ec%8a%a4%eb%a7%88%ec%8a%a4-%ec%9d%b8%ec%82%ac-4478147/
+
+https://pixabay.com/ko/photos/%eb%b6%88%ea%bd%83-%eb%b6%88-%eb%b9%9b-%ec%b4%9b%eb%b6%88-%eb%b6%88%ea%bd%83-1062513/
+
+Image
+https://pixabay.com/ko/vectors/%eb%aa%85%ec%98%88-%ed%99%94%ed%99%98-%ea%b8%88-%ec%9e%a5%ec%8b%9d%ec%a0%81%ec%9d%b8-4356464/
+
+Font
+https://fonts.google.com/specimen/League+Gothic?subset=latin#standard-styles
