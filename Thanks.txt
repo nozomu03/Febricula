@@ -25,10 +25,25 @@ putoff https://freesound.org/people/LJ.The.Unicorn/sounds/595502/
 
 cough https://freesound.org/people/MilliiStewart15/sounds/566006/
 
+heartbeat https://freesound.org/people/Lunardrive/sounds/21911/
+
+collapse https://freesound.org/people/ihitokage/sounds/395324/
+
+trickle https://freesound.org/people/martinimeniscus/sounds/199384/
+
+put https://freesound.org/people/sityu/sounds/380692/
+
+undress https://freesound.org/people/leonelmail/sounds/320876/
+
+door_open/door_close https://freesound.org/people/amholma/sounds/344360/
+
 3d Model
 "Old Tree" (https://skfb.ly/6TvHn) by gelmi.com.br is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 "chrysanthemum flower 3d model" (https://skfb.ly/osHqp) by Mirriliem is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
-image 
+
+Image
+https://pixabay.com/ko/vectors/%eb%aa%85%ec%98%88-%ed%99%94%ed%99%98-%ea%b8%88-%ec%9e%a5%ec%8b%9d%ec%a0%81%ec%9d%b8-4356464/
+
 https://thispersondoesnotexist.com/
 
 https://pixabay.com/ko/photos/1655503/
@@ -38,9 +53,6 @@ https://pixabay.com/ko/illustrations/%ec%8a%a4%ed%81%ac%eb%a1%a4-%ec%a2%85%ec%9d
 https://pixabay.com/ko/illustrations/%ec%a2%85%ec%9d%b4-%ed%8e%b8%ec%a7%80%ec%a7%80-%ed%81%ac%eb%a6%ac%ec%8a%a4%eb%a7%88%ec%8a%a4-%ec%9d%b8%ec%82%ac-4478147/
 
 https://pixabay.com/ko/photos/%eb%b6%88%ea%bd%83-%eb%b6%88-%eb%b9%9b-%ec%b4%9b%eb%b6%88-%eb%b6%88%ea%bd%83-1062513/
-
-Image
-https://pixabay.com/ko/vectors/%eb%aa%85%ec%98%88-%ed%99%94%ed%99%98-%ea%b8%88-%ec%9e%a5%ec%8b%9d%ec%a0%81%ec%9d%b8-4356464/
 
 Font
 https://fonts.google.com/specimen/League+Gothic?subset=latin#standard-styles

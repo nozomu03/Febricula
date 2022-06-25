@@ -231,7 +231,112 @@ label start:
     $Smoking("ginsetsu", loc=2, rep = 1)
     ginsetsu "빨아들이면서 붙여야지."
     $SoundPlayer("lighter.ogg", 6.0)
+    scene bg_taba:
+        linear .5 blur 5.0
+    show ginsetsu_tabahand at right:
+        linear .5 blur 5.0
+    with dissolve
     play second cough
-    $SoundPlayer("smoke.ogg", 2.0)
+    play looping heartbeat volume .1
+    "머리가 울리기 시작했다. {w}시야가 탁해진다. {w}현기증과 욕지기. {w}동시에. {w}쾅쾅대는 심음이 귓가에 맴돈다."
+    ginsetsu "괜찮아?"
+    chunyul "어... {w}괜찮아..."
+    ginsetsu "안 괜찮아 보이는데. {w}담배 이리 주고 잠깐 앉아 있어."
+    chunyul "응..."
+    scene bg_taba
+    show ginsetsu_tabahand at right
+    with dissolve
+    $Smoking("ginsetsu", loc=2, rep = 1)
+    "벤치에 걸터 앉아 누나를 올려다 봤다."
+    $Smoking("ginsetsu", loc=2, rep = 1)
+    "이제는 과거 되어버린 시절의 언뜻한 기억이 떠올랐다."
+    show bg_alpha
+    centered "{size=40}검푸른 바다에.{p}바알간 깜부기풀이 피었다."
+    with dissolve
+    extend "{size=40}\n\n물빛에 녹아 오르는 그 줄기에.{p}몽글몽글, 그림꽃이 피었다."
+    extend "\n\n{size=40}그림자마저 잦아든 이 바다에.{p}서리 맺힌 흰풀이 시들었다."
+    extend "\n\n{size=40}바람 아래 흩어져간 그 줄기에.{p}하늘하늘, 바랜꽃이 져갔다."
+    centered "{size=40}Utopia.{p}결코 닿을 수 없는. {w}존재하지 않는 이상 속의 낙향."
+    extend "\n\n{size=40}그 복판의 광장에서 바라봤떤 어느 여름날의 풍경."
+    extend "\n{size=40}오늘 날과 비슷히 한껏 오른 풀내음과. {w}찌는 듯한 열기, 습도."
+    extend "\n\n{size=40}그리고─────."
+    extend "\n{size=40}부슬이는 첫새벽이 찾은 바다.{p}하이얀 숨꽃이 피었던 어스름한 꿈끝."
+    centered "내 이야기를 파먹는 사진기와.{p}흑갈빛으롷 물들이는 현상소."
+    extend "\n\n지나서야 꺠달은.{p}더 없이 소중한. {w}행복으로의 이어지는 관문."
+    stop looping fadeout 2.0
+    chunyul "누나."
+    $Smoking("ginsetsu", loc=2, rep = 1)
+    ginsetsu "왜."
+    chunyul "누나는 왜 피우는 거야? {w}담배."
+    ginsetsu "이유라."
+    $Smoking("ginsetsu", loc=2, rep = 1)
+    ginsetsu "없어. {w}그런거."
+    chunyul "응?"
+    ginsetsu "중독자 새끼한테 이유 같은 것 없어. {w}그냥 목 마르니까 물 마시고 배고프니까 밥 먹는 거랑 똑같아."
+    chunyul "정말?"
+    ginsetsu "정말이지. {w}어지러운 건 좀 어떄?"
+    chunyul "이제 괜찮아졌어."
+    $Smoking("ginsetsu", loc=2, rep = 1)
+    $SoundPlayer("putoff.wav", 3.0)
+    $FaceChange("ginsetsu_bit", 2.0, .5, "ginsetsu_tabahand")
+    ginsetsu "덥다. {w}들어가자. {w}걸을 수 있겠어?"
+    chunyul "응."
+    "자리를 털고 일어났다."
+    hide ginsetsu_bit
+    $SoundPlayer("walk_slow.ogg", 2.0)
+    scene bg_black with dissolve
+    $renpy.pause(2.0)
+    scene bg_binso 
+    show ginsetsu_full at right
+    with dissolve
+    $SoundPlayer("trickle.ogg", 2.0)
+    $SoundPlayer("trickle.ogg", 2.0)
+    $SoundPlayer("trickle.ogg", 2.0)
+    $renpy.pause(1.0)
+    $SoundPlayer("put.ogg", .5)
+    "술잔을 내려놓았다."
+    "영정사진을 바라보았다.{p}한껏. {w}거대한 미소를 띈 그 아이."
+    "엎드려, 절했다. {w}두 번의 큰절. {w}한 번의 꾸벅임.{p}이미 너머의 세상을 향한 이에게는. {w}닿지 않을 인사."
+    "그럼에도 내가 담을 수 잇는 모든 예의와, 정성을 담아 마지막 작별을 고했다."
+    chunyul "......."
+    ginsetsu "......."
+    chunyul "(잘 가. {w}내 {b}{i}\'친구\'{/i}{/b})"
+    hide ginsetsu_full
+    $SoundPlayer("walk_slow.ogg", 2.0)
+    scene bg_binso2
+    show ginsetsu_full at right
+    with dissolve
+    ginsetsu "잠옷 안 챙겨왔지?"
+    chunyul "응."
+    ginsetsu "일단 내 옷이라도 빌려줄게. {w}유니섹스니까 상관 없지?"
+    "줄무니 바지 한 벌과 단색 민무늬 티셔츠."
+    ginsetsu "이걸로 갈아 입으면 돼."
+    chunyul "고마워."
+    ginsetsu "어떻게 할래. {w}네가 수면실 들어가서 갈아 입을래? {w}아니면 내가 들어갈까?"
+    chunyul "누나 좋을대로."
+    ginsetsu "그럼 네가 여기서 갈아 입어."
+    hide ginsetsu_full
+    $SoundPlayer("walk_slow.ogg", 2.0)
+    $SoundPlayer("door_open", .5)
+    $SoundPlayer("door_close", .5)
+    $SoundPlayer("dress.ogg", 3.0)
+    "옷을 갈아입는 데에는 그리 긴 시간이 걸리지 않았다. {w}입고 있던 교복을 벗고 빌린 옷을 입기만 하면 되는 문제였으니까."
+    "와이셔츠에 주름이 지지 않도록 깔끔하게 접었다.{p}넥타이와 가디건 역시 가지런히 정리하여 포갰다."
+    ginsetsu "이제 들어와도 돼~"
+    $SoundPlayer("walk_slow.ogg", 2.0)
+    $SoundPlayer("door_open", .5)
+    scene bg_bedroom
+    show ginsetsu_paja
+    with dissolve
+    $SoundPlayer("door_close", .5)
+    "안쪽 침대에 누워보았다."
+    "낡았지만, 적당히 푹신한 침대.{p}기숙사에 놓여진 2층 침대와는 비교조차 할 수 없었다."
+    ginsetsu "내일은 어떻게 할 거야?"
+    chunyul "그러게... {w}출석은 해야하니 아침에 나선다고는 해도 기숙사론 못 갈 것 같은데..."
+    ginsetsu "......."
+    "입술이, 우물거린다. {w}한 문장을 애써 삼킨 것이다.{p}간단히 알 수 있었다. {w}\'무리한 부탁이란 건 알지만\'이라고. {w}누나는 운을 때고 싶었을 것이다.{p}진정으로 혼자가 된다는 것. {w}삶의 대부분을 외톨이로 살았던 나라도 감히 상상할 수 없는 공포."
+    "인연이 잔류하고 있다는 것은. {w}소중한 이가 남아있다는 것은. {w}다른 어떤 이유보다도 삶이라는 바다, 몰아치는 격랑 속에서도 떠내려가지 않고자 하는 의지의 동력이 되어준다."
+    "그 모든 것을 잃고 외따로 남은 누나는 \'닻\'이 필요하다고 스스로 직감한 것이다. {w}"
+
     $renpy.pause()
     return
