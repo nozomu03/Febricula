@@ -317,18 +317,18 @@ label start:
     ginsetsu "그럼 네가 여기서 갈아 입어."
     hide ginsetsu_full
     $SoundPlayer("walk_slow.ogg", 2.0)
-    $SoundPlayer("door_open", .5)
-    $SoundPlayer("door_close", .5)
-    $SoundPlayer("dress.ogg", 3.0)
+    $SoundPlayer("door_open.ogg", 1.5)
+    $SoundPlayer("door_close.ogg", .5)
+    $SoundPlayer("undress.ogg", 3.0)
     "옷을 갈아입는 데에는 그리 긴 시간이 걸리지 않았다. {w}입고 있던 교복을 벗고 빌린 옷을 입기만 하면 되는 문제였으니까."
     "와이셔츠에 주름이 지지 않도록 깔끔하게 접었다.{p}넥타이와 가디건 역시 가지런히 정리하여 포갰다."
     ginsetsu "이제 들어와도 돼~"
     $SoundPlayer("walk_slow.ogg", 2.0)
-    $SoundPlayer("door_open", .5)
+    $SoundPlayer("door_open.ogg", .5)
     scene bg_bedroom
     show ginsetsu_paja
     with dissolve
-    $SoundPlayer("door_close", .5)
+    $SoundPlayer("door_close.ogg", .5)
     "안쪽 침대에 누워보았다."
     "낡았지만, 적당히 푹신한 침대.{p}기숙사에 놓여진 2층 침대와는 비교조차 할 수 없었다."
     ginsetsu "내일은 어떻게 할 거야?"
@@ -336,7 +336,22 @@ label start:
     ginsetsu "......."
     "입술이, 우물거린다. {w}한 문장을 애써 삼킨 것이다.{p}간단히 알 수 있었다. {w}\'무리한 부탁이란 건 알지만\'이라고. {w}누나는 운을 때고 싶었을 것이다.{p}진정으로 혼자가 된다는 것. {w}삶의 대부분을 외톨이로 살았던 나라도 감히 상상할 수 없는 공포."
     "인연이 잔류하고 있다는 것은. {w}소중한 이가 남아있다는 것은. {w}다른 어떤 이유보다도 삶이라는 바다, 몰아치는 격랑 속에서도 떠내려가지 않고자 하는 의지의 동력이 되어준다."
-    "그 모든 것을 잃고 외따로 남은 누나는 \'닻\'이 필요하다고 스스로 직감한 것이다. {w}"
-
+    "그 모든 것을 잃고 외따로 남은 누나는 지금 자신이. {w}그 어느 때보다\'닻\'의 필요성을 스스로 직감한 것이다."
+    "대답은. {w}정해져 있는 것이나 다름없었다."
+    chunyul "내일도 올까?"
+    ginsetsu "응?"
+    chunyul "어차피 컨테이너까지 가야 하는데 누나만 괜찮다면 여기 있는 편이 훨씬 낫지."
+    ginsetsu "그럼 그럴래?"
+    chunyul "괜찮아?"
+    ginsetsu "나 혼자니까. {w}나도 네가 와 주면 좋지. {w}안심도 되고."
+    chunyul "그래, 알겠어. {w}발인 때까지는 계속 올게."
+    ginsetsu "고마워."
+    chunyul "오히려 내가 고맙지. {w}덕분에 한밤중에 자전거 타고 안 움직여도 되니까."
+    ginsetsu "아, 그리고 이거."
+    play looping tick fadein 1.0 volume .4
+    $ImgDisplay("clock", 1, 120)
+    $renpy.pause()
+    chunyul "이건..."
+    ginsetsu "품 안에 소중히 품고 있더라고. {w}정작 시곗바늘은 온데간데 없이 사라졌지만."
     $renpy.pause()
     return

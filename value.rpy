@@ -51,6 +51,16 @@ init python:
             self.who = who
             self.message = message
 
+    def ImgDisplay(name = "clock", s_in = 0, e_in = 10):
+        for i in range(s_in, e_in):
+            renpy.show(str(name) + "_" + str(i))
+            renpy.pause(.1)
+            renpy.hide(str(name) + "_" + str(i))
+        renpy.show(str(name) + "_" + str(e_in))
+        renpy.music.stop(channel='looping', fadeout=1.0)
+        renpy.with_statement(Dissolve(1.0), always=False)
+        return
+
 #image 1 = "/fall_anim/1.png"
     renpy.music.register_channel(name = "second", mixer = None, loop = False)
     renpy.music.register_channel(name = "looping", mixer = None, loop = True)

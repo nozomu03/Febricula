@@ -37,6 +37,8 @@ undress https://freesound.org/people/leonelmail/sounds/320876/
 
 door_open/door_close https://freesound.org/people/amholma/sounds/344360/
 
+tick https://freesound.org/people/DocSmilax/sounds/466308/
+
 3d Model
 "Old Tree" (https://skfb.ly/6TvHn) by gelmi.com.br is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 "chrysanthemum flower 3d model" (https://skfb.ly/osHqp) by Mirriliem is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
