@@ -1,3 +1,5 @@
+image text1 = ParameterizedText(xalign=0.5, yalign=0.47)
+image text2 = ParameterizedText(xalign=0.5, yalign=0.53)
 init python:    
     def ShowImage(start=1, end=11):
         global path
@@ -70,7 +72,7 @@ define narr = Character("목소리", who_color = "#B9E2FA", what_color="#DCFFDC"
 define nvlnarr = Character(None, kind=nvl, what_color="#000000")
 define chunyul = Character("천율", who_color = "#FAE1AF", what_color = "#FFBB8C")
 define ginsetsu = Character("은설", who_color="#C39873", what_color="#b4b4b4")
-
+define yeon = Character("연호", who_color = "#AAFA82", what_color = "#008080")
 define eye_open = ImageDissolve("gun_barrel.jpg", 5.0, 8)
 define eye_close = ImageDissolve("gun_barrel2.jpg", 5.0, 8)
 

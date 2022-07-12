@@ -39,6 +39,14 @@ door_open/door_close https://freesound.org/people/amholma/sounds/344360/
 
 tick https://freesound.org/people/DocSmilax/sounds/466308/
 
+switch https://freesound.org/people/EricsSoundschmiede/sounds/457410/
+
+gasp https://freesound.org/people/Vanalosswen/sounds/572452/
+
+typing https://freesound.org/people/LamaMakesMusic/sounds/403562/
+
+sliding_open/sliding_close https://freesound.org/people/musicandsoundyay/sounds/452755/
+
 3d Model
 "Old Tree" (https://skfb.ly/6TvHn) by gelmi.com.br is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 "chrysanthemum flower 3d model" (https://skfb.ly/osHqp) by Mirriliem is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
@@ -58,3 +66,7 @@ https://pixabay.com/ko/photos/%eb%b6%88%ea%bd%83-%eb%b6%88-%eb%b9%9b-%ec%b4%9b%e
 
 Font
 https://fonts.google.com/specimen/League+Gothic?subset=latin#standard-styles
+
+Music & Score 
+https://commons.wikimedia.org/wiki/File:L%27Internationale.jpg?uselang=ko%E3%85%81
+yam******** https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14143448919
